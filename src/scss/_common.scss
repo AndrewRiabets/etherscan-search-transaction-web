@@ -1,0 +1,27 @@
+$accent-color: rgb(58, 128, 186);
+$bg-color: rgb(229, 229, 229);
+$bg-table-row-even: rgb(251, 251, 251);
+$bg-footer-color: rgb(28, 59, 85);
+$title-text-color: rgb(255, 255, 255);
+$text-color: rgb(26, 26, 26);
+$placeholder-text-color: rgb(151, 151, 151);
+
+html,
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    height: 100%; 
+    // background-color: $bg-color;
+}
+
+.wrapper {
+    min-height: 100%;
+    overflow: hidden;
+}
+
+._container {
+    max-width: 1180px;
+    margin: 0px auto;
+    padding: 0px 15px;
+    box-sizing: content-box;
+}

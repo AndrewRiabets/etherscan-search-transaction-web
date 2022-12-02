@@ -1,0 +1,96 @@
+._table-wrapper{
+    overflow-x: auto;
+}
+
+.table {
+    font-weight: normal;
+    border: none;
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 100%;
+    margin-top: 16px;
+
+    & th {
+        width: 100%;
+        padding: 4px 12px;
+        font-size: 16px;
+        line-height: 20px;
+        color: #FFF;
+        background: $accent-color;
+        text-align: left;
+        border: 1px solid #FFFFFF;
+    }
+
+    & th:first-child {
+        border-radius: 10px 0 0 0;
+    }
+
+    & th:last-child {
+        border-radius: 0 10px 0 0;
+    }
+
+    & td {
+        padding: 7px 12px;
+        border: 1px solid $accent-color;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        border: 1px solid #FFFFFF;
+    }
+
+    & tr {
+        background-color: #FBFBFB;
+    }
+    
+    & tr:nth-child(2n) {
+        background-color: #F1F1F1;
+    }
+    
+    & tr:hover {
+        background-color: #ccc;
+    }
+
+    &__blockNumber {
+        max-width: 93px;
+    }
+
+    &__transactionId {
+        max-width: 140px;
+    }
+
+    &__senderAddress {
+        max-width: 138px;
+    }
+
+    &__recipientsAddress {
+        max-width: 170px;
+    }
+
+    &__latestBlock {
+        max-width: 137px;
+    }
+
+    &__date {
+        max-width: 124px;
+    }
+
+    &__value {
+        max-width: 242px;
+    }
+
+    &__recipientsAddress {
+        max-width: 136px;
+    }
+
+    &__enter-data {
+       display: flex;
+       justify-content: center;
+       margin-top: 10px;
+    }
+}
+
+
+
+
+
+

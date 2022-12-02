@@ -1,0 +1,14 @@
+.header {
+    width: 100%;
+    background-color: $accent-color;
+    &__container {
+        display: flex;
+        min-height: 72px;
+        align-items: center;
+    }
+    &__logo {
+        color: $title-text-color;
+        font-size: 40px;
+        line-height: 49px;
+    }
+}

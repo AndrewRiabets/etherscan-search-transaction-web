@@ -1,0 +1,73 @@
+.query-field {
+    width: 100%;
+    margin-top: 60px;
+
+
+    &__form {
+        font-size: 14px;
+        line-height: 17px;
+        display: flex;
+        // position: relative;
+    }
+    &__query-menu {
+        display: flex;
+        position: relative;
+        align-items: center;
+        // max-width: 381px;
+        height: 48px;
+        border: 1px solid rgb(241, 241, 241);
+        border-radius: 10px;
+        background-color: #fff;
+    }
+
+    &__query-menu--notActive::after {
+        content: url('../images/arrow.png');
+        position: absolute;
+        left: 93%;
+        pointer-events: none;
+    }
+
+    &__query-menu--isActive::after {
+        content: url('../images/arrow.png');
+        position: absolute;
+        left: 93%;
+        pointer-events: none;
+        // display: inline-block;
+        transform: rotate(180deg);
+    }
+    
+
+    &__input{
+        width: 237px;
+        padding: 14px 5px 14px 16px;
+        font-style: italic;
+        border-radius: 10px;
+        background: linear-gradient(to left, #F1F1F1 0%, #F1F1F1, transparent 0.5%);
+    }
+
+    &__options{
+        padding: 14px 0px 14px 12px;
+        width: 143px;
+        // border-left: 1px solid #F1F1F1;
+        border-radius: 0px 10px 10px 0px;
+        display: inline-block;
+        position: relative;
+        appearance: none;
+        -moz-appearance: none;
+        -webkit-appearance: none;
+        appearance: none;
+    }
+
+    &__submitBtn {
+        width: 48px;
+        height: 48px;
+        background-color: $accent-color;
+        border-radius: 8px;
+        margin-left: 12px;
+        background-image: url(../images/search.png);
+        background-repeat: no-repeat;
+        background-position: 50% 50%;
+    }
+}
+
+
