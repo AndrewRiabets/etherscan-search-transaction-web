@@ -1,4 +1,4 @@
-import { useState, useCallback, useEffect } from "react";
+import { useState, useCallback } from "react";
 import ApiService from "../../apiService/apiService";
 
 export default function Pagination({ setTransactions, pages, query }) {
