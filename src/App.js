@@ -6,7 +6,6 @@ import QueryField from "./components/QueryField/QueryField";
 import Table from "./components/Table/Table";
 import Pagination from "./components/Pagination/Pagination";
 
-console.log(parseInt(0xf5a2bb));
 function App() {
   const [transactions, setTransactions] = useState();
   const [query, setQuery] = useState(1);

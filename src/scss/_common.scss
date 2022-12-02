@@ -17,11 +17,12 @@ body {
 .wrapper {
     min-height: 100%;
     overflow: hidden;
-}
+    display: flex;
+    flex-direction: column;
 
 ._container {
     max-width: 1180px;
     margin: 0px auto;
     padding: 0px 15px;
     box-sizing: content-box;
-}
+}}
