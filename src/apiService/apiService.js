@@ -1,6 +1,7 @@
 import axios from "axios";
 
-const BASE_URL = "http://localhost:5000/api/get-transactions";
+const BASE_URL =
+  "https://search-transaction-etherscan-api.onrender.com/api/get-transactions";
 const limit = 14;
 
 class ApiService {

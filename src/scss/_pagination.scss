@@ -1,6 +1,7 @@
 .pagination {
     width: 100%;
     margin-top: 56px;
+    min-height: calc(100vh - 442px);
 
     &__container {
         display: flex;
